@@ -61,6 +61,8 @@ CREATE TABLE rating (
   FOREIGN KEY (mov_id) REFERENCES movie(mov_id),
   FOREIGN KEY (rev_id) REFERENCES reviewer(rev_id)
 );
+===========================================================================================
+===========================================================================================
 CREATE DATABASE Task
 
 -- 1. Create a table named "Employees" with columns for ID (integer), Name (varchar), and Salary (decimal).
