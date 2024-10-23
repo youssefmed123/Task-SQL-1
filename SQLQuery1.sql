@@ -117,7 +117,7 @@ ALTER TABLE Customers
 ADD CONSTRAINT UQ_Customers_FirstName_LastName UNIQUE (FirstName, LastName);
 
 -- 12. Add a default value of 'Active' for the "Status" column in the "Customers" table, where the default value should be applied when a new record is inserted.
---already did it with creating table (Kept on saying syntax error so i deleted the table and it active with the creating process)
+--already did it with creating table (Kept on saying syntax error so i deleted the table and made it active with the creating process)
 
 -- 13. Create a table named "Orders" with columns for OrderID (integer), CustomerID (integer), OrderDate (datetime), and TotalAmount (decimal).
 CREATE TABLE Orders (
